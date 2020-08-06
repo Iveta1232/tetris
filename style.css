@@ -1,0 +1,46 @@
+.game {
+  display: flex;
+}
+#game-field {
+  display: grid;
+  grid-template-columns: repeat(10, 35px);
+  border: black;
+}
+
+#game-field * {
+  padding: 14px;
+  margin: 1px;
+  border: 2px inset grey;
+}
+#game-field-hint {
+  display: grid;
+  grid-template-columns: repeat(5, 35px);
+  border: black;
+  margin-left: 200px;
+}
+#game-field-hint * {
+  padding: 14px;
+  margin: 1px;
+  border: 2px inset grey;
+}
+.figure-one {
+  background-color: yellow;
+}
+.figure-two {
+  background-color: skyblue;
+}
+.figure-three {
+  background-color: purple;
+}
+.figure-four {
+  background-color: blue;
+}
+.figure-five {
+  background-color: orange;
+}
+.figure-six {
+  background-color: green;
+}
+.figure-seven {
+  background-color: red;
+}
